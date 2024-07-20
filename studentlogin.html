@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SITAM</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="login.css" type="text/css">
+    </head>
+    <body>
+
+    <!-- BACKGROUND-WRAPPER -->
+    <main class="background_wrapper">
+        <div class="arrow">
+            <button class="button__back" onclick="window.location.href='studentPortal.html';">Back</button>
+        <div class="login_form_wrapper">
+          <!-- FORM -->
+          <form action="#" class="login__form">
+            <h1 class="title">Student Login</h1>
+  
+            <div class="login_form_content">
+              <!-- LOGIN-CONTENT-BOX-1 -->
+              <div class="login_content_box">
+                <ion-icon name="person-outline"></ion-icon>
+  
+                <div class="login_content_box--input">
+                  <input
+                    type="username"
+                    placeholder="..."
+                    class="login__input email--input"
+                    required
+                  />
+                  <label for="username" class="login__label">Username</label>
+                </div>
+              </div>
+              <!-- LOGIN-CONTENT-BOX-2 -->
+              <div class="login_content_box">
+                <ion-icon name="lock-closed-outline"></ion-icon>
+  
+                <div class="login_content_box--input">
+                  <input
+                    type="password"
+                    placeholder="..."
+                    class="login__input password--input"
+                    required
+                  />
+                  <label for="password" class="login__label">Password</label>
+                  <ion-icon
+                    class="password__hidden"
+                    id="password_hidden"
+                    name="eye-off-outline"
+                  ></ion-icon>
+                </div>
+              </div>
+              <!-- REMEMBER-LOGIN -->
+              <div class="remember_login">
+                <div class="remember_login_content">
+                  <input type="checkbox" class="remember_login_input" placeholder="..." />
+                  <label for="remember" class="remember_login_label text--sm"
+                    >Remember me</label
+                  >
+                </div>
+                <!-- FORGET PASSWORD -->
+                <a href="#" class="forget__login text--sm">Forget password?</a>
+              </div>
+  
+              <!-- LOGIN BUTTON -->
+              <button type="submit" class="button__login">Login</a></button>
+            </div>
+          </form>
+        </div>
+      </main>s
+    </body>
